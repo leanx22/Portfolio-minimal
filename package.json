@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "dev:serve": "live-server --watch=index.html,dist/output.css --wait=200",
+    "dev": "concurrently \"npm:dev:css\" \"npm:dev:serve\"",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "concurrently": "^10.0.5",
+    "live-server": "^1.2.2",
+    "tailwindcss": "^4.3.3"
+  }
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Leandro Guia, desarrollador web orientado al backend y graduado como Técnico Universitario en Programación.">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Leandro Guia - Web Developer">
+	<meta property="og:description" content="Desarrollador web orientado al backend, graduado como Técnico Universitario en Programación.">
+	<meta property="og:image" content="https://leandroguia.com/preview.png">
+	<meta property="og:url" content="https://leandroguia.com">
+	<link rel="stylesheet" type="text/css" href="./dist/output.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+	<title>Leandro Guia - Web Developer</title>
+</head>
+<body class="bg-sky-900">
+<header class="
+	fixed bottom-4 sm:bottom-auto sm:top-4
+	left-1/2
+	-translate-x-1/2 
+	z-50
+	w-[92%] sm:max-w-2xl
+	bg-sky-950
+	border border-sky-400
+	shadow-xl
+	text-lg
+	">
+	<nav class="px-4 py-3">
+		<ul class="flex flex-row items-center justify-around
+		text-[14px]">
+			<li>
+				<a href="#hero" class="
+				text-sky-500
+				hover:text-sky-200
+				transition-colors">Inicio</a>
+			</li>
+			<li>
+				<a href="#projects" class="
+				text-sky-500
+				hover:text-sky-200
+				transition-colors">Proyectos</a>
+			</li>
+			<li>
+				<a href="#skills" class="
+				text-sky-500
+				hover:text-sky-200
+				transition-colors">Habilidades</a>
+			</li>
+			<li>
+				<a href="#contact-info" class="
+				text-sky-500
+				hover:text-sky-200
+				transition-colors">Contacto</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+<main class="text-white">	
+	<section id="hero" class="mb-8">
+			<header class="flex flex-col items-center m-8">
+				<h1 class="
+				font-bold text-2xl 
+				drop-shadow-[0_0_30px_rgba(34,211,238,0.8)]
+				">Leandro Guia</h1>
+				<p class="text-center">Técnico universitario en programación</p>
+			</header>
+			<div class="p-4 bg-sky-950 mx-2 shadow-xl border border-sky-400">
+				<p class="text-center">Soy un desarrollador web orientado al backend, con conocimientos en front-end, bases de datos, sistemas operativos y código limpio. Combino estas áreas para desarrollar soluciones prácticas, escalables y mantenibles, adaptadas a las necesidades de cada proyecto.</p>
+			</div>
+			<footer class="mt-4">
+				<p class="text-center mb-4 text-xl md:text-2xl">¿Interesado en sumar un nuevo desarrollador al equipo? Hablemos.</p>
+				<address>
+					<div class="grid grid-cols-3 text-center gap-2 mx-2">
+						<a class="bg-sky-950 border border-sky-400 p-2" href="#">LinkedIn</a>
+						<a class="bg-sky-950 border border-sky-400 p-2" href="#">Github</a>
+						<p class="bg-sky-950 border border-sky-400 p-2">email</p>
+					</div>
+					
+				</address>
+			</footer>
+	</section>
+
+	<section id="projects">
+		<h2 class="text-2xl font-bold text-center">Algunos de mis proyectos</h2>
+		<div class="mt-2 p-2">
+			<ul>
+				<li>
+					<article class="bg-sky-950 px-2 pt-2 border border-sky-400">
+						<header>
+							<div class="grid grid-cols-2">
+								<h3 class="font-bold text-lg mt-2">NexusShop</h3>
+								<span class="text-lime-400 text-center border border-lime-400 rounded-full m-2">Código abierto</span>
+							</div>
+							<figure class="mt-2 pt-2 border-t border-sky-500">
+								<img src="./assets/gifs/nexus_shop_anim.gif" alt="Vista previa de una página utilizando la API de NexusShop">
+							</figure>
+							<p class="mt-1 text-center text-sm italic">Ecommerce REST API.</p>
+						</header>
+						<div class="mt-2 px-2">
+							<p>API REST desarrollada con <strong>Java y Spring Boot</strong>. Imita una plataforma de ecommerce con CRUD completo para productos, búsqueda y autenticación. Utiliza <strong>Hibernate</strong> junto con <strong>PostgreSQL</strong> para persistencia, <strong>Spring Security</strong> para acceso por roles y autenticación mediante JWT.</p>
+						</div>
+						<footer class="text-end border-t  border-sky-500 mx-2 mt-2 py-4">
+							<a class="border border-sky-500 p-2
+							hover:rounded-2xl
+							hover:text-sky-500
+							transition-all duration-300 ease-in-out" 
+							href="#" target="_blank" rel="noopener noreferrer" aria-label="Visitar repositorio de NexusShop API">Ver en GitHub | <i class="devicon-github-original"></i></a>
+						</footer>
+					</article>
+				</li>
+
+				<li>
+					<article class="bg-sky-950 px-2 pt-2 border border-sky-400 mt-4">
+						<header>
+							<div class="grid grid-cols-2 border-b border-sky-500 pb-2">
+								<h3 class="font-bold text-lg mt-2">Aperture restaurante</h3>
+								<span class="text-lime-400 text-center border border-lime-400 rounded-full m-2">Código abierto</span>
+							</div>
+							<figure class="mt-2 p-2 grid grid-cols-3 gap-1 justify-items-center items-center bg-radial to-sky-800 from-sky-100">
+								<img class="max-h-72 rounded-lg border-2 border-black" src="./assets/images/aperture_apy.webp" alt="Vista previa de la aplicación">
+								<img class="max-h-72 rounded-lg border-2 border-black" src="./assets/gifs/aperture_menu.webp" alt="Vista previa de la aplicación">
+								<img class="max-h-72 rounded-lg border-2 border-black" src="./assets/images/aperture_en_mesa.webp" alt="Vista previa de la aplicación">
+							</figure>
+							<p class="mt-1 text-center text-sm italic">Gestor de negocio.</p>
+						</header>
+						<div class="mt-2 px-2">
+							<p>Proyecto <strong>full stack</strong> propuesto como trabajo integrador final en la universidad. Una aplicación para dispositivos <strong>android</strong> completa para gestionar las diferentes áreas de un restaurante. Incluye <strong>autenticación por roles, notificaciones push, chat en tiempo real, juegos, herramientas para gestión</strong> y más. Se utilizó <strong>Angular, Ionic y supabase</strong>.</p>
+						</div>
+						<footer class="text-end border-t  border-sky-500 mx-2 mt-2 py-4">
+							<a class="border border-sky-500 p-2
+							hover:rounded-2xl
+							hover:text-sky-500
+							transition-all duration-300 ease-in-out" 
+							href="#" target="_blank" rel="noopener noreferrer" aria-label="Visitar repositorio de NexusShop API">Ver en GitHub | <i class="devicon-github-original"></i></a>
+						</footer>
+					</article>
+				</li>
+				<li>
+					<article class="project-card">
+						<header>
+							<h3>Barber House</h3>
+							<span>Código privado</span>
+							<p class="card-subtitle">Gestor de negocio.</p>
+						</header>
+						<figure>
+							<img src="./assets/gifs/barber.gif" alt="Vista previa de la aplicación">
+						</figure>
+						<div class="card-body">
+							<p>Proyecto <strong>full stack</strong> propuesto como solución a los problemas de organización de una peluquería de barrio. Enfocada en dispositivos <strong>android</strong>, permite la autogestión de turnos en el establecimiento ahorrando tiempo al personal. Incluye <strong>notificaciones push, herramientas para gestión, panel de administrador, CRUD completo de servicios y listado de trabajos por completar</strong>. Se utilizó <strong>Angular, Ionic y supabase</strong>.</p>
+						</div>
+						<footer class="card-footer">
+							<a href="#" target="_blank" rel="noopener noreferrer">Visitar repositorio</a>
+						</footer>
+					</article>
+				</li>
+				<li>
+					<article class="project-card">
+						<header>
+							<h3>Carpeta Médica</h3>
+							<span>Código privado</span>
+							<p class="card-subtitle">Gestor de estudios médicos.</p>
+						</header>
+						<figure>
+							<img src="./assets/images/carpeta_medica_banner.webp" alt="Vista previa de la aplicación">
+						</figure>
+						<div class="card-body">
+							<p>Proyecto <strong>Android Java</strong>. La aplicación soluciona el desorden de estudios médicos digitales de diferentes clínicas, unificándolos todos en un mismo lugar, de forma local, organizada y segura. Permite el <strong>guardado de estudios médicos en diferentes formatos, creación de diferentes perfiles de usuario, exportación e importación de perfiles mediante archivos ZIP o WiFi desde otro dispositivo</strong>. Incluye funcionalidades como <strong>listado, búsqueda y facilidad de compartir los estudios</strong> de forma simple para usuarios de diferentes edades. Actualmente se encuentra en <strong>etapa de pruebas públicas en PlayStore</strong>.</p>
+						</div>
+						<footer class="card-footer">
+							<a href="#" target="_blank" rel="noopener noreferrer">Ver en PlayStore</a>
+						</footer>
+					</article>
+				</li>
+				<li>
+					<article class="project-card">
+						<header>
+							<h3>WallSwitch</h3>
+							<span>Código abierto</span>
+							<p class="card-subtitle">Selector de fondos de escritorio para noctalia-shell.</p>
+						</header>
+						<figure>
+							<img src="./assets/gifs/ws.gif" alt="Vista previa del proyecto">
+						</figure>
+						<div class="card-body">
+							<p>Proyecto personal para probar las capacidades de Antigravity CLI. WallSwitch <strong>permite el cambio de fondos de escritorio en vivo</strong> en entornos <strong>linux</strong> con noctalia-shell.
+						<b>Otorga la capacidad de personalizarlo por completo, agregando módulos (como texto, hora, espectro de audio) creados por  la comunidad o el usuario</b>, además de seguir la paleta de colores del sistema en caliente.</p>
+						</div>
+						<footer class="card-footer">
+							<a href="#" target="_blank" rel="noopener noreferrer">Visitar repositorio</a>
+						</footer>
+					</article>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="skills">
+		<h2>Habilidades técnicas</h2>
+		
+		<div>
+			<h3>Lenguajes</h3>	
+			<ul>
+				<li>Java</li>
+				<li>TypeScript</li>
+				<li>C#</li>
+				<li>C</li>
+			</ul>
+		</div>
+
+		<div>
+			<h3>Backend</h3>	
+			<ul>
+				<li>Spring Boot</li>
+				<li>Spring Security</li>
+				<li>Hibernate/JPA</li>
+				<li>NestJS</li>
+				<li>ExpressJS</li>
+			</ul>
+		</div>
+
+		<div>
+			<h3>Bases de datos y almacenamiento</h3>	
+			<ul>
+				<li>PostgreSQL</li>
+				<li>MySQL</li>
+				<li>MongoDB</li>
+				<li>Supabase(Auth, DB, Storage)</li>
+			</ul>
+		</div>
+
+		<div>
+			<h3>Frontend y mobile</h3>	
+			<ul>
+				<li>Angular</li>
+				<li>TailwindCSS</li>
+				<li>Ionic Framework</li>
+			</ul>
+		</div>
+
+		<div>
+			<h3>Herramientas y entorno</h3>	
+			<ul>
+				<li>Linux</li>
+				<li>Git y Github</li>
+				<li>Vercel</li>
+				<li>Cloudflare</li>
+				<li>Swagger / OpenAPI</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="contact-info">
+		<h2>Contacto</h2>
+		<address>
+			<ul>
+				<li><a href="#">LinkedIn</a></li>
+				<li><a href="#">Github</a></li>
+				<li>Enviar correo a: <a href="mailto:leandro.guia.dev@gmail.com">leandro.guia.dev@gmail.com</a></li>
+			</ul>
+			<button type="button">Copiar correo al portapapeles</button>
+		</address>
+	</section>
+</main>
+<footer>
+	<p>Creado por <a href="#" target="_blank" rel="noopener noreferrer">Leandro Guia</a> | 2026</p>
+	<a href="#">Volver al inicio</a>
+</footer>
+</body>
+</html>
